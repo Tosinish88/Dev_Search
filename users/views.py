@@ -3,6 +3,9 @@ from users.models import Profile
 
 # Create your views here.
 
+def loginPage(request):
+    return render(request, "users/login_register.html")
+
 def profiles(request):
     profiles = Profile.objects.all()
     context = {
