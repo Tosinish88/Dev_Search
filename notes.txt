@@ -1,0 +1,3 @@
+remember to add csrf token when making post request (edit, delete, e.t.c)
+templates should be seperated to where the belong either in root or project
+put forms in their own class
