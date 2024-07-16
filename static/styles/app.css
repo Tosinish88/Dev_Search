@@ -10,6 +10,11 @@
   border: 2px solid var(--color-light);
 }
 
+.dev__social li a svg {
+  fill: currentColor; /* This preserves the original icon color */
+}
+
+
 img {
   width: 100%;
 }
