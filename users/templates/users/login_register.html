@@ -4,9 +4,9 @@
 
 <form action="{% url 'login' %}" method="POST">
 
-    {% csrf token %}
+    {% csrf_token %}
     <input type="text" name="username" placeholder="Enter Username"/>
     <input type="password" name="password"/ placeholder="Enter Password">
     <input type="submit" name="Login"/>
 </form>
-{% endlock content %}
+{% endblock content %}
